@@ -2,7 +2,7 @@
 
 ## 001 What are plugins
     
-    Plugin load order
+### Plugin load order
 ---
 1. configuration file is loaded
 2. Functions and Classes loaded

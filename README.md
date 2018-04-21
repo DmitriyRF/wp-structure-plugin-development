@@ -3,20 +3,30 @@
 ## 001 What are plugins
     
     Plugin load order
-    ---
-    1. configuration file is loaded
-    2. Functions and Classes loaded
-    3. Plugins are loaded
-    4. Process all code & requests
-    5. Load translations
-    6. Load theme
-    7. Load page content
-    ---
+---
+1. configuration file is loaded
+2. Functions and Classes loaded
+3. Plugins are loaded
+4. Process all code & requests
+5. Load translations
+6. Load theme
+7. Load page content
+---
 
-### wp-config.php
+### Editing wp-config.php
 ```php
 
+//Debug
 define('WP_DEBUG', true); //set after development  as true
+
+//Increase PHP Memory to 256MB
+define( 'WP_MAX_MEMORY_LIMIT', '256M' );
+
+//Cache
+define( 'WP_CACHE', true );
+
+//Automatic Database Optimizing
+define( 'WP_ALLOW_REPAIR', true );
 ```
 
 ## 002 Creating a Plugin File Header

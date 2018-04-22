@@ -31,6 +31,10 @@ define( 'WP_ALLOW_REPAIR', true );
 
 ## 002 Creating a Plugin File Header
 
+### WordPress File Header
+
+    Create plugin index.php file that named File Header
+
 ## 003 Activating Our Plugin
 
 ## 004 1 Simple Trick to Secure a Plugin

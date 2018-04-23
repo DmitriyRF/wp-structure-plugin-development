@@ -10,3 +10,15 @@
  *	Text Domain: derefe
  * 
 **/ 
+
+//	Setup
+
+//	Includes
+
+//	Hooks
+
+//	Shortcodes
+
+
+register_activation_hook( __FILE__ , 'drf_activate_plugin' );
+include( 'includes/activate.php' );

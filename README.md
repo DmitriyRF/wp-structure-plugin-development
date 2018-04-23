@@ -1,7 +1,7 @@
 # Create wordpress plugins plan
 
 ## 001 What are plugins
-    
+
 ### Plugin load order
 ---
 1. configuration file is loaded
@@ -33,9 +33,16 @@ define( 'WP_ALLOW_REPAIR', true );
 
 ### WordPress File Header
 
-    Create plugin index.php file that named File Header
+   Create plugin index.php file that named File Header
 
 ## 003 Activating Our Plugin
+
+### Function Reference/register activation hook
+
+   Create plugin index.php file that named File Header
+```php
+bool version_compare ( string $version1 , string $version2 , string $operator ); // PHP function
+```
 
 ## 004 1 Simple Trick to Secure a Plugin
 

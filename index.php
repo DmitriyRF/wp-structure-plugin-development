@@ -11,6 +11,11 @@
  * 
 **/ 
 
+if( !function_exists('do_action') ){
+	echo 'Not allowed. I\'m just a plugin, not much I can do when called directly.';
+	exit();
+}
+
 //	Setup
 
 //	Includes

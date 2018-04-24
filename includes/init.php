@@ -17,12 +17,13 @@ function derefe_init(){
 			'search_items'       => __( 'Search CusPosTypes', 'drf' ),
 			'parent_item_colon'  => __( 'Parent CusPosTypes:', 'drf' ),
 			'not_found'          => __( 'No CusPosType found.', 'drf' ),
-			'not_found_in_trash' => __( 'No CusPosType found in Trash.', 'drf' )
+			'not_found_in_trash' => __( 'No CusPosType found in Trash.', 'drf' ),
+			'attributes'		 => __(  'CusPosType', 'drf')
 		);
 
 		$args = array(
 			'labels'             => $labels,
-	                'description'        => __( 'A custop post type for plugin Derefe.', 'drf' ),
+	                'description'=> __( 'A custop post type for plugin Derefe.', 'drf' ),
 			'public'             => true,
 			'publicly_queryable' => true,
 			'show_ui'            => true,

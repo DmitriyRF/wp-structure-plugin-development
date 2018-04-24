@@ -56,6 +56,14 @@ bool version_compare ( string $version1 , string $version2 , string $operator );
 
 ## 006 Metadata and Metaboxes
 
+### Metadata API
+
+### Function Reference/add metadata
+
+### Plugin API/Action Reference/add meta boxes
+
+### Code Reference/add_meta_box() 
+
 ## 007 Enqueueing Files
 
 ## 008 Working with Meta Data

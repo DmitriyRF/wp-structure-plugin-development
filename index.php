@@ -30,3 +30,6 @@ include( 'includes/activate.php' );
 
 add_action(  'init', 'derefe_init');
 include(  'includes/init.php');
+
+add_action(  'admin_init', 'derefe_admin_init');
+include(  'includes/admin/admin_init.php');

@@ -27,3 +27,6 @@ if( !function_exists('do_action') ){
 
 register_activation_hook( __FILE__ , 'drf_activate_plugin' );
 include( 'includes/activate.php' );
+
+add_action(  'init', 'derefe_init');
+include(  'includes/init.php');

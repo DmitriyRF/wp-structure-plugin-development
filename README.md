@@ -44,10 +44,15 @@ bool version_compare ( string $version1 , string $version2 , string $operator );
 ```
 
 ## 004 1 Simple Trick to Secure a Plugin
-
-   if dp_action function does not exist, so WprdPress have not loaded, and therefore we don't wanna run the rest of this script.
+ 
+   if do_action function does not exist, so WprdPress have not loaded, and therefore we don't wanna run the rest of this script.
 
 ## 005 Creating a Custom Post Type
+
+### Post Types
+
+### Function Reference/register post type
+   Just tske an example and customize then.
 
 ## 006 Metadata and Metaboxes
 
